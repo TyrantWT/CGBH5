@@ -114,8 +114,9 @@ img {
   width:213px;
   height:90px;
   cursor: pointer;
-  bottom: 0;
+  top: 50%;
   left: 0;
+  margin-top: -45px;
   overflow: hidden;  }
 
 .prev_arrow {
@@ -131,18 +132,16 @@ img {
 .next {
   width:171px;
   height:90px;
+  cursor: pointer;
+  top: 50%;
+  right: 0;
+  margin-top: -45px;
+  overflow: hidden;
 }
 .next_arrow {
   width:69px;
   height:90px;
 }
-
-
-.next, .next1 {
-  cursor: pointer;
-  top: 0;
-  right: 0;
-  overflow: hidden; }
 
 .next img,
 .next1 img {
