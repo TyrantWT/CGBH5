@@ -2,3 +2,106 @@
     width: 768px;
     height: 1024px;
 }
+
+@-webkit-keyframes widthOut {
+  from {
+    -webkit-transform: scaleX(0); }
+  0% {
+    -webkit-transform: scaleX(0); }
+
+  to {
+    -webkit-transform: scaleX(1); } }
+
+@keyframes widthOut {
+  from {
+    transform: scaleX(0); }
+  0% {
+    transform: scaleX(0); }
+  to {
+    transform: scaleX(1); }
+}
+
+.widthOut {
+  -webkit-animation-name: widthOut;
+  animation-name: widthOut;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%; }
+
+@-webkit-keyframes fadeInUpRotate {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) rotateZ(360deg);
+    transform: translate3d(0, 0, 0) rotateZ(360deg); } }
+
+@keyframes fadeInUpRotate {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0) rotateZ(0);
+    transform: translate3d(0, 10%, 0) rotateZ(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) rotateZ(360deg);
+    transform: translate3d(0, 0, 0) rotateZ(360deg); } }
+
+.fadeInUpRotate {
+  -webkit-animation-name: fadeInUpRotate;
+  animation-name: fadeInUpRotate;
+  -webkit-transform-origin: 50% 75.4%;
+  transform-origin: 50% 75.4%; }
+
+
+@-webkit-keyframes fadeInUp_v2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInUp_v2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+.fadeInUp_v2 {
+  -webkit-animation-name: fadeInUp_v2;
+  animation-name: fadeInUp_v2;
+  -webkit-transform-origin: 50% 75.4%;
+  transform-origin: 50% 75.4%;
+}
+
+  @-webkit-keyframes fadeInRotate {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }
+
+@keyframes fadeInRotate {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }
+
+.fadeInRotate {
+  -webkit-animation-name: fadeInRotate;
+  animation-name: fadeInRotate;
+  -webkit-transform-origin: 50% 30.5%;
+  transform-origin: 49.7% 30.87%; }
