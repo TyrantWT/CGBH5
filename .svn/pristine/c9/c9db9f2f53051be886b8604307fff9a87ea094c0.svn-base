@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>广发银行</title>
+    <meta name="description" content="战略引领，谋远益近。 Be Bank⁺，Be Banker">
+    <meta property="og:description" content="战略引领，谋远益近。 Be Bank⁺，Be Banker">
+    <link href="img/favicon.ico" rel="icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <link href="css/jpreloader.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body>
+    <div id="jpreContent">
+        <div class="loader">
+            <img src="img/preload.png" style="position:relative" />
+        </div>
+    </div>
+    <div class="page" id="mainBlock">
+<!--         <div class="rel">
+            <div class="music_controls">
+                <img class="play time-2 rotate cont hide" src="img/music.svg">
+                <img class="paused " src="img/music_mute.svg">
+            </div>
+            <audio id="mus" preload loop controls>
+                <source src="music.ogg" type="audio/ogg">
+                <source src="music.mp3" type="audio/mpeg">
+                你的浏览器不支持音频元素。
+            </audio>
+        </div> -->
+        <div class="pageContent swiper-wrapper">
+            <div class="page3 pageview swiper-slide">
+                <div class="abs ani">
+                    <img src="img/page3/0.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page3/1.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="heightIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.2s">
+                    <img src="img/page3/2.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
+                    <img src="img/page3/2ap.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.5s">
+                    <img src="img/page3/2bp.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="2s">
+                    <img src="img/page3/2cp.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="2.5s">
+                    <img src="img/page3/2a.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3s">
+                    <img src="img/page3/2b.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.5s">
+                    <img src="img/page3/2c.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="4s">
+                    <img src="img/page3/3.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="4.5s">
+                    <img src="img/page3/3.png" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="5.5s">
+                    <img src="img/page3/4.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="5s">
+                    <img src="img/page3/4.png" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="6s">
+                    <img src="img/page3/5.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="6.5s">
+                    <img src="img/page3/5.png" />
+                </div>
+                <div class="abs next next_arrow ani" swiper-animate-effect="fadeInLeft cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/next_arrow.png" />
+                </div>
+                <div class="abs prev prev_arrow ani" swiper-animate-effect="fadeInRight cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/prev_arrow.png" />
+                </div>
+                <div class="abs prev ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
+                    <img src="img/prev.svg" />
+                </div>
+                <div class="abs next ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
+                    <img src="img/next.svg" />
+                </div>
+                <div class="abs bottomlogo ani">
+                    <img src="img/bottomlogo.svg" />
+                </div>
+            </div>
+            <div class="page1 pageview swiper-slide">
+                <div class="abs music_start ani" swiper-animate-effect="slideInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0s">
+                    <img src="img/page1/cover.svg" />
+                </div>
+                <div class="abs music_start ani" swiper-animate-effect="slideInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0s">
+                    <img src="img/page1/cover.png" />
+                </div>
+                <div class="abs music_start ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="2.2s">
+                    <div class="ani" >
+                        <img src="img/page1/2016_2.svg" />
+                    </div>
+                </div>
+                <div class="abs music_start ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="2.6s">
+                    <div class="ani">
+                        <img src="img/page1/2016_0.svg" />
+                    </div>
+                </div>
+                <div class="abs music_start ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="2.8s">
+                    <div class="ani" >
+                        <img src="img/page1/2016_1.svg" />
+                    </div>
+                </div>
+                <div class="abs music_start ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3s">
+                    <div class="ani" >
+                        <img src="img/page1/2016_6.svg" />
+                    </div>
+                </div>
+                <div class="abs music_start ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="5.0s">
+                    <img src="img/page1/logo.svg" />
+                </div>
+                <div class="abs music_start ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1.2s" swiper-animate-delay="5.8s">
+                    <img src="img/page1/title.svg" />
+                </div>
+                <div class="rel music_start ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.5s">
+                    <span class="abs music_circle ani"> </span>
+                </div>
+                <div class="abs next next_arrow ani" swiper-animate-effect="fadeInLeft cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/next_arrow.png" />
+                </div>
+                <div class="abs next ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.0s">
+                    <img src="img/next.svg" />
+                </div>
+            </div>
+            <div class="page2 pageview swiper-slide">
+                <div class="abs ani">
+                    <img src="img/page2/0.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page2/1.png" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="0.2s">
+                    <img src="img/page2/2.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.8s">
+                    <img src="img/page2/3.png" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="0.6s">
+                    <img src="img/page2/4.svg" />
+                </div>
+                <div class="abs next next_arrow ani" swiper-animate-effect="fadeInLeft cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/next_arrow.png" />
+                </div>
+                <div class="abs prev prev_arrow ani" swiper-animate-effect="fadeInRight cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/prev_arrow.png" />
+                </div>
+                <div class="abs prev ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
+                    <img src="img/prev.svg" />
+                </div>
+                <div class="abs next ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
+                    <img src="img/next.svg" />
+                </div>
+                <div class="abs bottomlogo ani">
+                    <img src="img/bottomlogo.svg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="overLayer"></div>
+
+    <script>
+        // wx.config({
+        //   debug: false,
+        //   appId: 'wx7f4c686cb97860fb',
+        //   jsApiList: [
+        //     "checkJsApi",
+        //     "onMenuShareTimeline",
+        //     "onMenuShareAppMessage",
+        //     "onMenuShareQQ",
+        //     "onMenuShareWeibo",
+        //     "onMenuShareQZone"
+        //   ]
+        // });
+        // wx.ready(function() {
+        //   document.getElementById('mus').play();
+        //   $(".paused").hide();
+        //   $(".play").show();
+        // });
+
+        // wx.ready(function () {
+        //   var shareData = {
+        //       title: "广发银行二零一六年年度报告概览",
+        //       desc: "战略引领，谋远益近。 Be Bank⁺，Be Banker",
+        //       link: "http://cgb.gennexfp.com",
+        //       imgUrl: "http://cgb.gennexfp.com/img/webchat.jpg"
+        //   };
+        //   wx.onMenuShareAppMessage(shareData);
+        //   wx.onMenuShareTimeline(shareData);
+        //   wx.onMenuShareQQ(shareData);
+        //   wx.onMenuShareWeibo(shareData);
+        //   wx.onMenuShareQZone(shareData);
+        // });
+    </script>
+    <script src="js/jpreloader.js"></script>
+    <script src="js/pageResponse.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
