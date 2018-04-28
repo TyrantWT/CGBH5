@@ -1,0 +1,185 @@
+@-webkit-keyframes fadeInUpSlight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2%, 0);
+    transform: translate3d(0, 2%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+
+@keyframes fadeInUpSlight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2%, 0);
+    transform: translate3d(0, 2%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+.fadeInUpSlight {
+  -webkit-animation-name: fadeInUpSlight;
+  animation-name: fadeInUpSlight;
+}
+
+@-webkit-keyframes fadeInDownSlight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2%, 0);
+    transform: translate3d(0, -2%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+
+@keyframes fadeInDownSlight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2%, 0);
+    transform: translate3d(0, -2%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+.fadeInDownSlight {
+  -webkit-animation-name: fadeInDownSlight;
+  animation-name: fadeInDownSlight;
+}
+
+@-webkit-keyframes fadeInLeftSlight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2%, 0, 0);
+    transform: translate3d(-2%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInLeftSlight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2%, 0, 0);
+    transform: translate3d(-2%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+.fadeInLeftSlight {
+  -webkit-animation-name: fadeInLeftSlight;
+  animation-name: fadeInLeftSlight; }
+
+@-webkit-keyframes scaleVertical_1 {
+  from {
+    opacity: 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+
+@keyframes scaleVertical_1 {
+  from {
+    opacity: 1;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+.scaleVertical_1 {
+  -webkit-animation-name: scaleVertical_1;
+  animation-name: scaleVertical_1;
+  -webkit-transform-origin: 50% 38.2%;
+  transform-origin: 50% 38.2%;
+}
+
+@-webkit-keyframes scaleVertical_2 {
+  from {
+    opacity: 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+
+@keyframes scaleVertical_2 {
+  from {
+    opacity: 1;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+.scaleVertical_2 {
+  -webkit-animation-name: scaleVertical_2;
+  animation-name: scaleVertical_2;
+  -webkit-transform-origin: 50% 60.58%;
+  transform-origin: 50% 60.58%;
+}
+
+@-webkit-keyframes scaleVertical_3 {
+  from {
+    opacity: 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+
+@keyframes scaleVertical_3 {
+  from {
+    opacity: 1;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+.scaleVertical_3 {
+  -webkit-animation-name: scaleVertical_3;
+  animation-name: scaleVertical_3;
+  -webkit-transform-origin: 50% 80.86%;
+  transform-origin: 50% 80.86%;
+}
+
+@-webkit-keyframes p2_fadeInRotate_2 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }
+
+@keyframes p2_fadeInRotate_2 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }
+
+.p2_fadeInRotate_2 {
+  -webkit-animation-name: p2_fadeInRotate_2;
+  animation-name: p2_fadeInRotate_2;
+  -webkit-transform-origin: 69.17% 56.57%;
+  transform-origin: 69.17% 56.57%; }
