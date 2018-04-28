@@ -9,10 +9,11 @@
     <link href="img/favicon.ico" rel="icon">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=EDGE">
-    <!-- <meta http-equiv="cache-control" content="max-age=0"> -->
-    <!-- <meta http-equiv="cache-control" content="no-cache"> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    <!-- <meta http-equiv="pragma" content="no-cache"> -->
+    <meta http-equiv="pragma" content="no-cache">
     <link href="css/jpreloader.css" rel="stylesheet">
     <link href="css/swiper.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -48,23 +49,23 @@
                     <img src="img/page2/title_bar.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0">
-                    <img src="img/page2/title.png" class="wh_113x150" />
+                    <img src="img/page2/title.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0">
                     <img src="img/page2/title_light.svg" class="wh_113x150" />
                 </div>
 
 
-                <div class="abs ani" swiper-animate-effect="scaleVerticalFromMiddle" swiper-animate-duration="1.2s" swiper-animate-delay="1.2s">
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.2s">
                     <img src="img/page2/title_word_box.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.8s">
-                    <img src="img/page2/title_word.png" class="wh_113x150" />
+                    <img src="img/page2/title_word.svg" class="wh_113x150" />
                 </div>
 
 
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="3s">
-                    <img src="img/page2/line1.png" class="wh_113x150" />
+                    <img src="img/page2/line1.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="3s">
                     <img src="img/page2/line4.svg" class="wh_113x150" />
@@ -288,13 +289,14 @@
                     <img src="img/page2/fig6g-01.svg" class="wh_113x150" />
                 </div>
 
-<<<<<<< HEAD
-				<div class="abs ani">
-                    <img src="img/page3/logo-01.svg" class="wh_113x150" />
-                </div>
-=======
 
->>>>>>> 24d2251c88edc673812a4a898e55da25a98b2383
+
+<!--                 <div class="abs next next_arrow ani" swiper-animate-effect="fadeInLeft cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/next_arrow.png" />
+                </div>
+                <div class="abs prev prev_arrow ani" swiper-animate-effect="fadeInRight cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/prev_arrow.png" />
+                </div> -->
                 <!-- 前一页 -->
                 <div class="abs prev ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
                     <img src="img/left_arrow.png" />
@@ -408,7 +410,12 @@
                 <div class="abs ani" swiper-animate-effect="fadeInUp_v2" swiper-animate-duration="1s" swiper-animate-delay="8.8s">
                     <img src="img/page3/logo-01.svg" class="wh_113x150" />
                 </div>
-
+                <!--                 <div class="abs next next_arrow ani" swiper-animate-effect="fadeInLeft cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/next_arrow.png" />
+                </div>
+                <div class="abs prev prev_arrow ani" swiper-animate-effect="fadeInRight cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/prev_arrow.png" />
+                </div> -->
 
                 <!-- 前一页 -->
                 <div class="abs prev ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">

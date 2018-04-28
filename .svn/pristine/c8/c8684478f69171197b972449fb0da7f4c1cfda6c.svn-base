@@ -9,16 +9,16 @@
     <link href="img/favicon.ico" rel="icon">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=EDGE">
-    <!-- <meta http-equiv="cache-control" content="max-age=0"> -->
-    <!-- <meta http-equiv="cache-control" content="no-cache"> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
-    <!-- <meta http-equiv="pragma" content="no-cache"> -->
+    <meta http-equiv="pragma" content="no-cache">
     <link href="css/jpreloader.css" rel="stylesheet">
     <link href="css/swiper.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/page3.css" />
-    <link rel="stylesheet" href="css/page2.css" />
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 </head>
@@ -48,31 +48,87 @@
                     <img src="img/page2/title_bar.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0">
-                    <img src="img/page2/title.png" class="wh_113x150" />
+                    <img src="img/page2/title.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0">
                     <img src="img/page2/title_light.svg" class="wh_113x150" />
                 </div>
 
 
-                <div class="abs ani" swiper-animate-effect="scaleVerticalFromMiddle" swiper-animate-duration="1.2s" swiper-animate-delay="1.2s">
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.2s">
                     <img src="img/page2/title_word_box.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.8s">
-                    <img src="img/page2/title_word.png" class="wh_113x150" />
+                    <img src="img/page2/title_word.svg" class="wh_113x150" />
                 </div>
+
+                <!-- <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="0.8s">
+                    <img src="img/page2/title_og.svg" class="wh_113x150" />
+                </div> -->
+
+                <!--  <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="1s">
+                    <img src="img/page2/title.svg" class="wh_113x150" />
+                </div> -->
+
+
 
 
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="3s">
-                    <img src="img/page2/line1.png" class="wh_113x150" />
+                    <img src="img/page2/line1.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="3s">
                     <img src="img/page2/line4.svg" class="wh_113x150" />
                 </div>
 
-                <!-- 2017文字+横线 -->
+
+                <!-- <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page2/2016.svg" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page2/2017.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page2/blue_bar_box.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.8s">
+                    <img src="img/page2/blue_bar.svg" class="wh_113x150" />
+                </div> -->
+
+
+
+
+                <!--<div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1a.svg" class="wh_113x150" />
+                </div>-->
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1a-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1b.svg" class="wh_113x150" />
+                </div>
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/fig1b-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1c.svg" class="wh_113x150" />
+                </div>
+                <!--<div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1c-01.svg" class="wh_113x150" />
+                </div>-->
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1d-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1e-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1f-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1g-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1h-01.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/fig1i-01.svg" class="wh_113x150" />
@@ -80,45 +136,45 @@
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/fig1j-01.svg" class="wh_113x150" />
                 </div>
-                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
-                    <img src="img/page2/fig1c.svg" class="wh_113x150" />
-                </div>
-<!--                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0">
+                <!--<div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig1k-01.svg" class="wh_113x150" />
+                </div>-->
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/box_light.svg" class="wh_113x150" />
-                </div> -->
-                <!-- 2016柱状 -->
-                <div class="abs ani" swiper-animate-effect="scaleVertical_1" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
-                    <img src="img/page2/fig1a-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 2017金额 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="6s">
-                    <img src="img/page2/fig1e-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 2017柱状 -->
-                <div class="abs ani" swiper-animate-effect="scaleVertical_1" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
-                    <img src="img/page2/fig1f-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="scaleVertical_1" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
-                    <img src="img/page2/fig1g-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="scaleVertical_1" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
-                    <img src="img/page2/fig1h-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 提升百分比 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="7.8s">
-                    <img src="img/page2/fig1b.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="fadeInUpSlight" swiper-animate-duration="1.2s" swiper-animate-delay="7.2s">
-                    <img src="img/page2/fig1d-01.svg" class="wh_113x150" />
                 </div>
 
-
-                <!-- 2017文字+横线 -->
+                <!--<div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2a.svg" class="wh_113x150" />
+                </div>-->
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2a-01.svg" class="wh_113x150" />
+                </div>
+                <!--<div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2b.svg" class="wh_113x150" />
+                </div>-->
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2b-01.svg" class="wh_113x150" />
+                </div>
                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/fig2c.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2c-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/fig2d-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2e-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2f-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2g-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2h-01.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/fig2i-01.svg" class="wh_113x150" />
@@ -126,39 +182,36 @@
                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/fig2j-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 2016柱状 -->
-                <div class="abs ani" swiper-animate-effect="scaleVertical_1" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
-                    <img src="img/page2/fig2a-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 2017柱状 -->
-                <div class="abs ani" swiper-animate-effect="scaleVertical_1" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
-                    <img src="img/page2/fig2f-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="scaleVertical_1" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
-                    <img src="img/page2/fig2g-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="scaleVertical_1" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
-                    <img src="img/page2/fig2h-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 2017金额 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="6s">
-                    <img src="img/page2/fig2e-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 提升百分比 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="7.8s">
-                    <img src="img/page2/fig2b-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="fadeInUpSlight" swiper-animate-duration="1.2s" swiper-animate-delay="7.2s">
-                    <img src="img/page2/fig2c-01.svg" class="wh_113x150" />
-                </div>
+                <!--<div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
+                    <img src="img/page2/fig2k-01.svg" class="wh_113x150" />
+                </div>-->
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="3.6s">
                     <img src="img/page2/line2.svg" class="wh_113x150" />
                 </div>
 
-
-                <!-- 2017文字+横线 -->
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig3a-01.svg" class="wh_113x150" />
+                </div>
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
                     <img src="img/page2/fig3b-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig3c-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig3d-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig3e-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig3f-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig3g-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig3h-01.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
                     <img src="img/page2/fig3i-01.svg" class="wh_113x150" />
@@ -169,60 +222,55 @@
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
                     <img src="img/page2/fig3k-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 2016柱状 -->
-                <div class="abs ani" swiper-animate-effect="scaleVertical_2" swiper-animate-duration="1.2s" swiper-animate-delay="5.4s">
-                    <img src="img/page2/fig3a-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig4a-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 2017柱状 -->
-                <div class="abs ani" swiper-animate-effect="scaleVertical_2" swiper-animate-duration="1.2s" swiper-animate-delay="5.4s">
-                    <img src="img/page2/fig3f-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig4b-01.svg" class="wh_113x150" />
                 </div>
-                <div class="abs ani" swiper-animate-effect="scaleVertical_2" swiper-animate-duration="1.2s" swiper-animate-delay="5.4s">
-                    <img src="img/page2/fig3g-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig4c-01.svg" class="wh_113x150" />
                 </div>
-                <div class="abs ani" swiper-animate-effect="scaleVertical_2" swiper-animate-duration="1.2s" swiper-animate-delay="5.4s">
-                    <img src="img/page2/fig3h-01.svg" class="wh_113x150" />
+                <!--<div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig4d-01.svg" class="wh_113x150" />
+                </div>-->
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
+                    <img src="img/page2/fig4e-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 2017金额 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="6.6s">
-                    <img src="img/page2/fig3e-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 提升百分比 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="8.4s">
-                    <img src="img/page2/fig3c-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="fadeInUpSlight" swiper-animate-duration="1.2s" swiper-animate-delay="7.8s">
-                    <img src="img/page2/fig3d-01.svg" class="wh_113x150" />
-                </div>
-
-                <!-- 底部横线+文字 -->
                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
                     <img src="img/page2/fig4f-01.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
                     <img src="img/page2/fig4g-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 圆环 -->
-                <div class="abs ani" swiper-animate-effect="p2_fadeInRotate_2" swiper-animate-duration="1.2s" swiper-animate-delay="5.4s">
-                    <img src="img/page2/fig4a-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="p2_fadeInRotate_2" swiper-animate-duration="1.2s" swiper-animate-delay="5.4s">
-                    <img src="img/page2/fig4b-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="p2_fadeInRotate_2" swiper-animate-duration="1.2s" swiper-animate-delay="5.4s">
-                    <img src="img/page2/fig4c-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 数字 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="6.6s">
-                    <img src="img/page2/fig4e-01.svg" class="wh_113x150" />
-                </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="4.2s">
                     <img src="img/page2/line3.svg" class="wh_113x150" />
                 </div>
 
-                <!-- 底部文字+横线 -->
+
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig5a-01.svg" class="wh_113x150" />
+                </div>
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
                     <img src="img/page2/fig5b-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig5c-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig5c-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig5d-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig5f-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig5g-01.svg" class="wh_113x150" />
+                </div>
+                <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig5h-01.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
                     <img src="img/page2/fig5i-01.svg" class="wh_113x150" />
@@ -233,75 +281,68 @@
                 <div class="abs ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
                     <img src="img/page2/fig5k-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 2016柱状 -->
-                <div class="abs ani" swiper-animate-effect="scaleVertical_3" swiper-animate-duration="1.2s" swiper-animate-delay="6s">
-                    <img src="img/page2/fig5a-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig6a-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 2017柱状 -->
-                <div class="abs ani" swiper-animate-effect="scaleVertical_3" swiper-animate-duration="1.2s" swiper-animate-delay="6s">
-                    <img src="img/page2/fig5g-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig6b-01.svg" class="wh_113x150" />
                 </div>
-                <div class="abs ani" swiper-animate-effect="scaleVertical_3" swiper-animate-duration="1.2s" swiper-animate-delay="6s">
-                    <img src="img/page2/fig5h-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig6c-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 2017金额 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="7.2s">
-                    <img src="img/page2/fig5f-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig6d-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 下降百分比 -->
-                <div class="abs ani" swiper-animate-effect="fadeInDownSlight" swiper-animate-duration="1.2s" swiper-animate-delay="8.4s">
-                    <img src="img/page2/fig5c-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig6e-01.svg" class="wh_113x150" />
                 </div>
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="9s">
-                    <img src="img/page2/fig5d-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig6f-01.svg" class="wh_113x150" />
                 </div>
-
-                <!-- 底部文字+横线 -->
+                <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/fig6g-01.svg" class="wh_113x150" />
+                </div>
                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
                     <img src="img/page2/fig6h-01.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
                     <img src="img/page2/fig6i-01.svg" class="wh_113x150" />
                 </div>
-                <!-- 左侧文字 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="6s">
-                    <img src="img/page2/fig6a-01.svg" class="wh_113x150" />
+<!--                 <div class="abs ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="4.8s">
+                    <img src="img/page2/figure_break_line.svg" class="wh_113x150" />
+                </div> -->
+                <!--
+
+
+
+
+                <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page2/down_arrow.svg" class="wh_113x150" />
                 </div>
-                <!-- 箭头 -->
-                <div class="abs ani" swiper-animate-effect="fadeInLeftSlight" swiper-animate-duration="1.2s" swiper-animate-delay="7.2s">
-                    <img src="img/page2/fig6b-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page2/up_arrow.svg" class="wh_113x150" />
                 </div>
-                <div class="abs ani" swiper-animate-effect="fadeInLeftSlight" swiper-animate-duration="1.2s" swiper-animate-delay="8.4s">
-                    <img src="img/page2/fig6c-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="fadeInLeftSlight" swiper-animate-duration="1.2s" swiper-animate-delay="9.6s">
-                    <img src="img/page2/fig6d-01.svg" class="wh_113x150" />
-                </div>
-                <!-- 数字 -->
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="7.8s">
-                    <img src="img/page2/fig6e-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="9s">
-                    <img src="img/page2/fig6f-01.svg" class="wh_113x150" />
-                </div>
-                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="10.2s">
-                    <img src="img/page2/fig6g-01.svg" class="wh_113x150" />
+                <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page2/right_arrow.svg" class="wh_113x150" />
                 </div>
 
-<<<<<<< HEAD
-				<div class="abs ani">
-                    <img src="img/page3/logo-01.svg" class="wh_113x150" />
-                </div>
-=======
 
->>>>>>> 24d2251c88edc673812a4a898e55da25a98b2383
+                <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">
+                    <img src="img/page2/white_bar.svg" class="wh_113x150" />
+                </div> -->
+                <div class="abs next next_arrow ani" swiper-animate-effect="fadeInLeft cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/next_arrow.png" />
+                </div>
+                <div class="abs prev prev_arrow ani" swiper-animate-effect="fadeInRight cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/prev_arrow.png" />
+                </div>
                 <!-- 前一页 -->
                 <div class="abs prev ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
-                    <img src="img/left_arrow.png" />
+                    <img src="img/left_arrow.svg" />
                 </div>
                 <!-- 后一页 -->
                 <div class="abs next ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
-                    <img src="img/right_arrow.png" />
+                    <img src="img/right_arrow.svg" />
                 </div>
             </div>
 
@@ -331,7 +372,7 @@
                     <img src="img/page3/line3.svg" class="wh_113x150" />
                 </div>
 
-                <div class="abs ani" swiper-animate-effect="p3_fadeInRotate" swiper-animate-duration="1.2s" swiper-animate-delay="4s">
+                <div class="abs ani" swiper-animate-effect="fadeInRotate" swiper-animate-duration="1.2s" swiper-animate-delay="4s">
                     <img src="img/page3/circle.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="4s">
@@ -408,15 +449,20 @@
                 <div class="abs ani" swiper-animate-effect="fadeInUp_v2" swiper-animate-duration="1s" swiper-animate-delay="8.8s">
                     <img src="img/page3/logo-01.svg" class="wh_113x150" />
                 </div>
-
+                <!--                 <div class="abs next next_arrow ani" swiper-animate-effect="fadeInLeft cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/next_arrow.png" />
+                </div>
+                <div class="abs prev prev_arrow ani" swiper-animate-effect="fadeInRight cont" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                    <img src="img/prev_arrow.png" />
+                </div> -->
 
                 <!-- 前一页 -->
                 <div class="abs prev ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
-                    <img src="img/left_arrow.png" />
+                    <img src="img/left_arrow.svg" />
                 </div>
                 <!-- 后一页 -->
                 <div class="abs next ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
-                    <img src="img/right_arrow.png" />
+                    <img src="img/right_arrow.svg" />
                 </div>
             </div>
 <!--            <div class="page1 pageview swiper-slide">

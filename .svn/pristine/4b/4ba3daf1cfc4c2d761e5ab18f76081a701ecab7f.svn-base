@@ -48,7 +48,7 @@
                     <img src="img/page2/title_bar.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0">
-                    <img src="img/page2/title.png" class="wh_113x150" />
+                    <img src="img/page2/title.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0">
                     <img src="img/page2/title_light.svg" class="wh_113x150" />
@@ -59,12 +59,12 @@
                     <img src="img/page2/title_word_box.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.8s">
-                    <img src="img/page2/title_word.png" class="wh_113x150" />
+                    <img src="img/page2/title_word.svg" class="wh_113x150" />
                 </div>
 
 
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="3s">
-                    <img src="img/page2/line1.png" class="wh_113x150" />
+                    <img src="img/page2/line1.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="3s">
                     <img src="img/page2/line4.svg" class="wh_113x150" />
@@ -288,13 +288,7 @@
                     <img src="img/page2/fig6g-01.svg" class="wh_113x150" />
                 </div>
 
-<<<<<<< HEAD
-				<div class="abs ani">
-                    <img src="img/page3/logo-01.svg" class="wh_113x150" />
-                </div>
-=======
 
->>>>>>> 24d2251c88edc673812a4a898e55da25a98b2383
                 <!-- 前一页 -->
                 <div class="abs prev ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="0.5s">
                     <img src="img/left_arrow.png" />
