@@ -55,7 +55,7 @@
                 </div>
 
 
-                <div class="abs ani" swiper-animate-effect="scaleVerticalFromMiddle" swiper-animate-duration="1.2s" swiper-animate-delay="1.2s">
+                <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.2s">
                     <img src="img/page2/title_word_box.svg" class="wh_113x150" />
                 </div>
                 <div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.2s" swiper-animate-delay="1.8s">
