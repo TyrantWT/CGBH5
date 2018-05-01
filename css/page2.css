@@ -212,3 +212,54 @@
   animation-name: p2_fadeInRotate_2;
   -webkit-transform-origin: 69.17% 56.57%;
   transform-origin: 69.17% 56.57%; }
+
+
+@-webkit-keyframes lineMoveUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(32%);
+    transform: translateY(32%); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes lineMoveUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(32%);
+    transform: translateY(32%); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+.lineMoveUp {
+  -webkit-animation-name: lineMoveUp;
+  animation-name: lineMoveUp; }
+
+
+@-webkit-keyframes lineMoveDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-32%);
+    transform: translateY(-32%); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes lineMoveDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-32%);
+    transform: translateY(-32%); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+.lineMoveDown {
+  -webkit-animation-name: lineMoveDown;
+  animation-name: lineMoveDown; }
+
