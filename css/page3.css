@@ -80,7 +80,7 @@
   transform-origin: 50% 75.4%;
 }
 
-  @-webkit-keyframes p3_fadeInRotate {
+@-webkit-keyframes p3_fadeInRotate {
   from {
     opacity: 0;
     -webkit-transform: rotateZ(0);

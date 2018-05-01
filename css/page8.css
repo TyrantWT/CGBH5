@@ -1,0 +1,66 @@
+@-webkit-keyframes scaleVertical {
+  from {
+    opacity: 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+
+@keyframes scaleVertical {
+  from {
+    opacity: 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; }
+}
+.scaleVertical {
+  -webkit-animation-name: scaleVertical;
+  animation-name: scaleVertical;
+}
+.p8_bar {
+  -webkit-transform-origin: 50% 42.4%;
+  transform-origin: 50% 42.4%;
+}
+
+@-webkit-keyframes rotatez {
+  from {
+    -webkit-transform: rotate3d(0, 0, 1, -360deg);
+    transform: rotate3d(0, 0, 1, -360deg);
+    opacity: 0; }
+  to {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotatez {
+  from {
+    -webkit-transform: rotate3d(0, 0, 1, -360deg);
+    transform: rotate3d(0, 0, 1, -360deg);
+    opacity: 0; }
+  to {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+.rotatez {
+  -webkit-animation-name: rotatez;
+  animation-name: rotatez;}
+
+.p8_light1 {
+  -webkit-transform-origin: 23.73% 72.4%;
+  transform-origin: 23.73% 72.4%;
+}
+.p8_light2 {
+  -webkit-transform-origin: 50% 72.4%;
+  transform-origin: 50% 72.4%;
+}
+.p8_light3 {
+  -webkit-transform-origin: 77.8667% 72.4%;
+  transform-origin: 77.8667% 72.4%;
+}
