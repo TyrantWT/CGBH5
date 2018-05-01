@@ -99,7 +99,7 @@
   -webkit-transform-origin: 50.667% 71.2%;
   transform-origin: 50.667% 71.2%; }
 
-  @-webkit-keyframes p6_bounce {
+  @-webkit-keyframes bounce_ {
   from {
     opacity: 0;
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -131,7 +131,7 @@
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
 
-@keyframes p6_bounce {
+@keyframes bounce_ {
   from {
     opacity: 0;
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -163,14 +163,14 @@
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
 
-.p6_bounce {
-  -webkit-animation-name: p6_bounce;
-  animation-name: p6_bounce;
+.bounce_ {
+  -webkit-animation-name: bounce_;
+  animation-name: bounce_;
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom; }
 
 
-  @-webkit-keyframes p6_scalex {
+@-webkit-keyframes scalex {
   from {
     -webkit-transform: scale3d(0, 1, 1);
     transform: scale3d(0, 1, 1); }
@@ -178,22 +178,22 @@
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); } }
 
-@keyframes p6_scalex {
+@keyframes scalex {
   from {
     width: 0; }
   to {
     width: 100px; } }
 
-.p6_scalex {
-  -webkit-animation-name: p6_scalex;
-  animation-name: p6_scalex; }
+.scalex {
+  -webkit-animation-name: scalex;
+  animation-name: scalex; }
 
-.p6_scalex_1 {
+.p6_line_1 {
     right: 434px;
     top: 377px;
     height: 130px;
 }
-.p6_scalex_2 {
+.p6_line_2 {
     left: 435px;
     top: 377px;
     height: 130px;
