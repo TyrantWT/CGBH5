@@ -32,8 +32,8 @@
 
 @-webkit-keyframes p7_rotatez {
   from {
-    -webkit-transform: rotate3d(0, 0, 1, -360deg);
-    transform: rotate3d(0, 0, 1, -360deg);
+    -webkit-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
     opacity: 0; }
   to {
     -webkit-transform: none;
@@ -42,8 +42,8 @@
 
 @keyframes p7_rotatez {
   from {
-    -webkit-transform: rotate3d(0, 0, 1, -360deg);
-    transform: rotate3d(0, 0, 1, -360deg);
+    -webkit-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
     opacity: 0; }
   to {
     -webkit-transform: none;

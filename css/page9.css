@@ -1,0 +1,53 @@
+.p9_light_1 {
+  -webkit-transform-origin: 22.8% 44.4776%;
+  transform-origin: 22.8% 44.4776%;
+}
+.p9_light_2 {
+  -webkit-transform-origin: 77.4% 62.986%;
+  transform-origin: 77.4% 62.985%;
+}
+.p9_light_3 {
+  -webkit-transform-origin: 22.8% 81.64%;
+  transform-origin: 22.8% 81.64%;
+}
+
+@-webkit-keyframes scalexLtoR {
+  from {
+    -webkit-transform: scaleX(0); }
+
+  to {
+    -webkit-transform: scaleX(1); } }
+
+@keyframes scalexLtoR {
+  from {
+    transform: scaleX(0); }
+  to {
+    transform: scaleX(1); }
+}
+
+.scalexLtoR {
+  -webkit-animation-name: scalexLtoR;
+  animation-name: scalexLtoR;
+  -webkit-transform-origin: 32% 0;
+  transform-origin: 32% 0;
+}
+@-webkit-keyframes scalexRtoL {
+  from {
+    -webkit-transform: scaleX(0); }
+
+  to {
+    -webkit-transform: scaleX(1); } }
+
+@keyframes scalexRtoL {
+  from {
+    transform: scaleX(0); }
+  to {
+    transform: scaleX(1); }
+}
+
+.scalexRtoL {
+  -webkit-animation-name: scalexRtoL;
+  animation-name: scalexRtoL;
+  -webkit-transform-origin: 68.6% 0;
+  transform-origin: 68.6% 0;
+}
