@@ -6,16 +6,12 @@
 @-webkit-keyframes widthOut {
   from {
     -webkit-transform: scaleX(0); }
-  0% {
-    -webkit-transform: scaleX(0); }
 
   to {
     -webkit-transform: scaleX(1); } }
 
 @keyframes widthOut {
   from {
-    transform: scaleX(0); }
-  0% {
     transform: scaleX(0); }
   to {
     transform: scaleX(1); }
