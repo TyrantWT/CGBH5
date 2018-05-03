@@ -26,8 +26,8 @@
 @-webkit-keyframes fadeInUpRotate {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 10%, 0);
-    transform: translate3d(0, 10%, 0); }
+    -webkit-transform: translate3d(0, 10%, 0) rotateZ(0);
+    transform: translate3d(0, 10%, 0) rotateZ(0); }
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) rotateZ(360deg);

@@ -1,0 +1,290 @@
+@-webkit-keyframes ani_2018 {
+    from,
+    to {
+        opacity: 0; }
+    10%,
+    90% {
+        opacity: 1;
+    }
+}
+
+@keyframes ani_2018 {
+    from,
+    to {
+        opacity: 0; }
+    10%,
+    90% {
+        opacity: 1;
+    }
+}
+
+.ani_2018 {
+  -webkit-animation-name: ani_2018;
+  animation-name: ani_2018;
+}
+
+@-webkit-keyframes ani_slogan_1 {
+    from,
+    10%,
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(5px, 5px, 0);
+        transform: translate3d(5px, 5px, 0); }
+    20%,
+    90% {
+        opacity: 1;
+        -webkit-transform: translate3d(-5px, -5px, 0);
+        transform: translate3d(-5px, -5px, 0); }
+}
+
+@keyframes ani_slogan_1 {
+    from,
+    10%,
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(5px, 5px, 0);
+        transform: translate3d(5px, 5px, 0); }
+    20%,
+    90% {
+        opacity: 1;
+        -webkit-transform: translate3d(-5px, -5px, 10px);
+        transform: translate3d(-5px, -5px, 10px); }
+}
+
+.ani_slogan_1 {
+  -webkit-animation-name: ani_slogan_1;
+  animation-name: ani_slogan_1;
+}
+
+@-webkit-keyframes ani_star_1 {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        opacity: 0; }
+    30%,
+    50%,
+    70%,
+    90% {
+        opacity: 1;
+    }
+}
+
+@keyframes ani_star_1 {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        opacity: 0; }
+    30%,
+    50%,
+    70%,
+    90% {
+        opacity: 1;
+    }
+}
+
+.ani_star_1 {
+  -webkit-animation-name: ani_star_1;
+  animation-name: ani_star_1;
+}
+
+@-webkit-keyframes ani_slogan_2 {
+    from,
+    30%,
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(-10px, -15px, 0);
+        transform: translate3d(-10px, -15px, 0); }
+    40%,
+    90% {
+        opacity: 1;
+        -webkit-transform: translate3d(10px, 15px, 0);
+        transform: translate3d(10px, 15px, 0); }
+}
+
+@keyframes ani_slogan_2 {
+    from,
+    30%,
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(-10px, -15px, 0);
+        transform: translate3d(-10px, -15px, 0); }
+    40%,
+    90% {
+        opacity: 1;
+        -webkit-transform: translate3d(10px, 15px, 10px);
+        transform: translate3d(10px, 15px, 10px); }
+}
+
+.ani_slogan_2 {
+  -webkit-animation-name: ani_slogan_2;
+  animation-name: ani_slogan_2;
+}
+
+@-webkit-keyframes ani_star_2 {
+    from,
+    40%,
+    60%,
+    70%,
+    80%,
+    to {
+        opacity: 0; }
+    55%,
+    65%,
+    75%,
+    95% {
+        opacity: 1;
+    }
+}
+
+@keyframes ani_star_2 {
+    from,
+    40%,
+    60%,
+    70%,
+    80%,
+    to {
+        opacity: 0; }
+    55%,
+    65%,
+    75%,
+    95% {
+        opacity: 1;
+    }
+}
+
+.ani_star_2 {
+  -webkit-animation-name: ani_star_2;
+  animation-name: ani_star_2;
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+}
+
+@-webkit-keyframes ani_slogan_3 {
+    from,
+    50%,
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(15px, 10px, 0);
+        transform: translate3d(15px, 10px, 0); }
+    60%,
+    90% {
+        opacity: 1;
+        -webkit-transform: translate3d(-15px, -10px, 0);
+        transform: translate3d(-15px, -10px, 0); }
+}
+
+@keyframes ani_slogan_3 {
+    from,
+    50%,
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(15px, 10px, 0);
+        transform: translate3d(15px, 10px, 0); }
+    60%,
+    90% {
+        opacity: 1;
+        -webkit-transform: translate3d(-15px, -10px, 10px);
+        transform: translate3d(-15px, -10px, 10px); }
+}
+
+.ani_slogan_3 {
+  -webkit-animation-name: ani_slogan_3;
+  animation-name: ani_slogan_3;
+}
+
+@-webkit-keyframes ani_star_3 {
+    from,
+    60%,
+    80%,
+    to {
+        opacity: 0; }
+    70%,
+    90% {
+        opacity: 1;
+    }
+}
+
+@keyframes ani_star_3 {
+    from,
+    60%,
+    80%,
+    to {
+        opacity: 0; }
+    70%,
+    90% {
+        opacity: 1;
+    }
+}
+
+.ani_star_3 {
+  -webkit-animation-name: ani_star_3;
+  animation-name: ani_star_3;
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+@-webkit-keyframes ani_slogan_4 {
+    from,
+    70%,
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(-10px, -10px, 0);
+        transform: translate3d(-10px, -10px, 0); }
+    80%,
+    90% {
+        opacity: 1;
+        -webkit-transform: translate3d(10px, 10px, 0);
+        transform: translate3d(10px, 10px, 0); }
+}
+
+@keyframes ani_slogan_4 {
+    from,
+    70%,
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(-10px, -10px, 0);
+        transform: translate3d(-10px, -10px, 0); }
+    80%,
+    90% {
+        opacity: 1;
+        -webkit-transform: translate3d(10px, 10px, 10px);
+        transform: translate3d(10px, 10px, 10px); }
+}
+
+.ani_slogan_4 {
+  -webkit-animation-name: ani_slogan_4;
+  animation-name: ani_slogan_4;
+}
+
+@-webkit-keyframes ani_star_4 {
+    from,
+    to {
+        opacity: 0; }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes ani_star_4 {
+    from,
+    to {
+        opacity: 0; }
+    50% {
+        opacity: 1;
+    }
+}
+
+.ani_star_4 {
+  -webkit-animation-name: ani_star_4;
+  animation-name: ani_star_4;
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
