@@ -85,7 +85,7 @@
 				left: Math.round((50 / winWidth) * conWidth) + '%'
 			});
 
-			$jContent.html($(jpreOptions.splashID).wrap('<div/>').parent().html());
+			$jContent.html($(jpreOptions.splashID).show().wrap('<div/>').parent().html());
 			$(jpreOptions.splashID).remove();
 			jpreOptions.splashFunction()
 		}
