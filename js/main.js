@@ -88,9 +88,17 @@ $(document).ready(function() {
         setSwiper();
         // autoPlayAudio();
     });
+
+    pageResponse({
+        selectors: '#mainBlock',
+        mode: 'contain',
+        width: '768',
+        height: '1024'
+    });
 });
 
-window.onload = window.onresize = function() {
+// window.onload =
+window.onresize = function() {
     pageResponse({
         selectors: '#mainBlock',
         mode: 'contain',

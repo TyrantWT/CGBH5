@@ -68,19 +68,24 @@
 		})
 		.appendTo('body');
 
+		var winWidth = $(window).width();
+
 		if(jpreOptions.showSplash) {
 			jContent = $('<div></div>')
 			.attr('id', 'jpreSlide')
 			.appendTo(jOverlay);
 
-			var conWidth = $(window).width() - $(jContent).width();
-			$(jContent).css({
+			var $jContent = $(jContent);
+
+			var conWidth = winWidth - $jContent.width();
+
+			$jContent.css({
 				position: "absolute",
 				top: jpreOptions.splashVPos,
-				left: Math.round((50 / $(window).width()) * conWidth) + '%'
+				left: Math.round((50 / winWidth) * conWidth) + '%'
 			});
 
-			$(jContent).html($(jpreOptions.splashID).wrap('<div/>').parent().html());
+			$jContent.html($(jpreOptions.splashID).wrap('<div/>').parent().html());
 			$(jpreOptions.splashID).remove();
 			jpreOptions.splashFunction()
 		}
@@ -89,11 +94,11 @@
 		.attr('id', 'jpreLoader')
 		.appendTo(jOverlay);
 
-		var posWidth = $(window).width() - $(jLoader).width();
+		var posWidth = winWidth - $(jLoader).width();
 		$(jLoader).css({
 			position: 'absolute',
 			top: jpreOptions.loaderVPos,
-			left: Math.round((50 / $(window).width()) * posWidth) + '%'
+			left: Math.round((50 / winWidth) * posWidth) + '%'
 		});
 
 
@@ -134,16 +139,17 @@
 	//get all images from css and <img> tag
 	var getImages = function(element) {
 		$(element).find('*:not(script)').each(function() {
-			var url = "";
+			var url = "",
+				_this = $(this);
 
-			if ($(this).css('background-image').indexOf('none') == -1 && $(this).css('background-image').indexOf('-gradient') == -1) {
-				url = $(this).css('background-image');
+			if ( _this.css('background-image').indexOf('none') == -1 && _this.css('background-image').indexOf('-gradient') == -1) {
+				url = _this.css('background-image');
 				if(url.indexOf('url') != -1) {
 					var temp = url.match(/url\((.*?)\)/);
 					url = temp[1].replace(/\"/g, '');
 				}
-			} else if ($(this).get(0).nodeName.toLowerCase() == 'img' && typeof($(this).attr('src')) != 'undefined') {
-				url = $(this).attr('src');
+			} else if ( _this.get(0).nodeName.toLowerCase() == 'img' && typeof( _this.attr('src')) != 'undefined') {
+				url = _this.attr('src');
 			}
 
 			if (url.length > 0) {
@@ -154,7 +160,7 @@
 
 	//create preloaded image
 	var preloading = function() {
-		for (var i = 0; i < items.length; i++) {
+		for (var i = 0, len = items.length; i < len; i++) {
 			if(loadImg(items[i]));
 		}
 	}
@@ -246,9 +252,9 @@
 		}
 
 		//show preloader once JS loaded
-		$('body').css({
-			'display': 'block'
-		});
+		// $('body').css({
+		// 	'display': 'block'
+		// });
 
 		return this.each(function() {
 			if( !(getCookie()) ) {
