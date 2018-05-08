@@ -80,13 +80,21 @@ $(document).ready(function() {
             $(".paused").show();
         }
     });
+
+    var video = document.getElementById('video');
+    // document.IsFullScreen = true;
+    video.onended = function(){
+        //结束时触发
+        video.parentNode.removeChild(video);
+        setSwiper();
+    }
+
     $('#mainBlock').jpreLoader({
         showSplash: true,
         loaderVPos: '72%',
         autoClose: true
     }, function() {
-        setSwiper();
-        // autoPlayAudio();
+        video.play();
     });
 
     pageResponse({
