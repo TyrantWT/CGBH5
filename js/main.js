@@ -85,8 +85,16 @@ $(document).ready(function() {
     // document.IsFullScreen = true;
     video.onended = function(){
         //结束时触发
+        video.style.display = 'none';
         video.parentNode.removeChild(video);
         setSwiper();
+    }
+
+    var ua = window.navigator.userAgent;
+    var isiOS = !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+    if (isiOS) {
+        enableInlineVideo(video);
     }
 
     $('#mainBlock').jpreLoader({
@@ -94,7 +102,10 @@ $(document).ready(function() {
         loaderVPos: '72%',
         autoClose: true
     }, function() {
+        // video.setAttribute('autoplay', true);
+        autoPlayAudio();
         video.play();
+        // setSwiper();
     });
 
     pageResponse({
