@@ -12,19 +12,10 @@
 		<meta http-equiv="expires" content="0">
 		<meta http-equiv="pragma" content="no-cache">
 		<link href="css/style.min.css" rel="stylesheet">
-		<link href="css/jpreloader.min.css" rel="stylesheet">
-		<link href="css/swiper.min.css" rel="stylesheet">
-		<link href="css/animate.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/pages.css" />
-		<script>
-			var _hmt = _hmt || [];
-			(function() {
-				var hm = document.createElement("script");
-				hm.src = "https://hm.baidu.com/hm.js?2389d49073291cc28854d0a9e0eae41a";
-				var s = document.getElementsByTagName("script")[0];
-				s.parentNode.insertBefore(hm, s);
-			})();
-		</script>
+		<!-- <link href="css/jpreloader.min.css" rel="stylesheet"> -->
+		<link href="https://cdn.bootcss.com/Swiper/3.3.1/css/swiper.min.css" rel="stylesheet">
+<!-- 		<link href="https://cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+		<link href="css/pages.min.css" rel="stylesheet" /> -->
 
 	</head>
 
@@ -35,22 +26,22 @@
 			</div>
 		</div>
 
-		<video type="video/mp4" id="video" class="video" poster="" src="video/video.mp4" width="100%" webkit-playsinline preload="auto">
+<!-- 		<video type="video/mp4" id="video" class="video" poster="" src="video/video.mp4" width="100%" webkit-playsinline preload="auto">
 		您的浏览器不支持 video 标签。
-		</video>
+		</video> -->
 
 		<div class="page" id="mainBlock">
-		<div class="rel">
-            <div class="music_controls">
-                <img class="play time-2 rotate cont hide" src="img/music.svg">
-                <img class="paused " src="img/music_mute.svg">
-            </div>
-            <audio id="mus" preload loop controls>
-                <source src="bg_music/two_steps_from_hell.mp3" type="audio/ogg">
-                <source src="bg_music/two_steps_from_hell.mp3" type="audio/mpeg">
-                你的浏览器不支持音频元素。
-            </audio>
-        </div>
+			<div class="rel">
+	            <div class="music_controls">
+	                <img class="play time-2 rotate cont hide" src="img/music.svg">
+	                <img class="paused " src="img/music_mute.svg">
+	            </div>
+	            <audio id="mus" preload loop controls>
+	                <source src="bg_music/two_steps_from_hell.mp3" type="audio/ogg">
+	                <source src="bg_music/two_steps_from_hell.mp3" type="audio/mpeg">
+	                你的浏览器不支持音频元素。
+	            </audio>
+	        </div>
 			<div class="pageContent swiper-wrapper">
 
 				<div class="page2 pageview swiper-slide">
@@ -1821,11 +1812,15 @@
 					<div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="10.4s">
 						<img src="img/page15/page16/logo-01.png" class="wh_113x150" />
 					</div>
-					<div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="11s">
-						<img src="img/page15/page16/qr_code-01.png" class="wh_113x150" />
+					<div class="abs ani qrcode_1" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="11s">
+						<a href="http://m.cgbchina.com.cn/mobile/jsp/about/report_list.jsp?mock=/Channel/19765440&selYear=" style="cursor: pointer;">
+							<img src="img/page15/page16/qr_code-01.png" class="wh_113x150" />
+						</a>
 					</div>
-					<div class="abs ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="11s">
-						<img src="img/page15/page16/qr_code-02.png" class="wh_113x150" />
+					<div class="abs ani qrcode_2" swiper-animate-effect="fadeIn" swiper-animate-duration=".6s" swiper-animate-delay="11s">
+						<a href="http://m.cgbchina.com.cn/Channel/20422409" style="cursor: pointer;">
+							<img src="img/page15/page16/qr_code-02.png" class="wh_113x150" />
+						</a>
 					</div>
 					<div class="abs ani" swiper-animate-effect="ani_star_4" swiper-animate-duration="2s" swiper-animate-delay="11.6s">
 						<img src="img/page15/page16/star-01.png" class="wh_113x150" />
@@ -1844,9 +1839,9 @@
 		</div>
 		<div id="overLayer"></div>
 
-		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-		<script src="js/iphone-inline-video.min.js"></script>
+		<!-- <script src="js/iphone-inline-video.min.js"></script> -->
 		<script>
 			wx.config({
 			  debug: false,
@@ -1882,9 +1877,19 @@
 		</script>
 		<script src="js/jpreloader.js"></script>
 		<script src="js/pageResponse.min.js"></script>
-		<script src="js/swiper.min.js"></script>
+		<!-- <script src="js/swiper.min.js"></script> -->
+		<script src="https://cdn.bootcss.com/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
 		<script src="js/swiper.animate.min.js"></script>
 		<script src="js/main.js"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?2389d49073291cc28854d0a9e0eae41a";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
 	</body>
 
 </html>

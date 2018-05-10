@@ -7,7 +7,14 @@
     /*object-fit: fill;*/
     z-index: 2;
 }
-
+.video-gif {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
 @-webkit-keyframes lightMove {
   from {
@@ -1257,4 +1264,30 @@ transform-origin: 68.84% 54.35%;
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+}
+.qrcode_1{
+	width: 151px;
+    height: 190px;
+    cursor: pointer;
+    top: 74.1%;
+    left: 27%;
+    z-index: 100;
+    margin-top: -45px;
+}
+.qrcode_1>a>img{
+	width: 151px;
+    height: 190px;
+}
+.qrcode_2{
+	width: 151px;
+    height: 190px;
+    cursor: pointer;
+    top: 74.1%;
+    right: 27%;
+    z-index: 100;
+    margin-top: -45px;
+}
+.qrcode_2>a>img{
+	width: 151px;
+    height: 190px;
 }

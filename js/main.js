@@ -68,7 +68,28 @@ function setSwiper() {
     });
 }
 
+function loadVideo() {
+    var video = document.createElement('img');
+
+    video.className = 'video-gif';
+    video.onload = function() {
+        document.body.appendChild(video);
+
+        setTimeout(function(){
+            video.parentNode.removeChild(video);
+            setSwiper();
+        }, 5500);
+    }
+
+    video.src = 'video/video.gif';
+}
+
 $(document).ready(function() {
+    var video = document.createElement('img');
+
+    video.className = 'video-gif';
+    video.src = 'video/video.gif';
+
     $("body").on('click', ".music_controls", function() {
         if (aud.paused) {
             aud.play();
@@ -81,21 +102,21 @@ $(document).ready(function() {
         }
     });
 
-    var video = document.getElementById('video');
-    // document.IsFullScreen = true;
-    video.onended = function(){
-        //结束时触发
-        video.style.display = 'none';
-        video.parentNode.removeChild(video);
-        setSwiper();
-    }
+    // var video = document.getElementById('video');
+    // // document.IsFullScreen = true;
+    // video.onended = function(){
+    //     //结束时触发
+    //     video.style.display = 'none';
+    //     video.parentNode.removeChild(video);
+    //     setSwiper();
+    // }
 
-    var ua = window.navigator.userAgent;
+    /*var ua = window.navigator.userAgent;
     var isiOS = !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
 
     if (isiOS) {
         enableInlineVideo(video);
-    }
+    }*/
 
     $('#mainBlock').jpreLoader({
         showSplash: true,
@@ -104,7 +125,14 @@ $(document).ready(function() {
     }, function() {
         // video.setAttribute('autoplay', true);
         autoPlayAudio();
-        video.play();
+        // loadVideo();
+        document.body.appendChild(video);
+
+        setTimeout(function(){
+            video.parentNode.removeChild(video);
+            setSwiper();
+        }, 5500);
+        // video.play();
         // setSwiper();
     });
 
